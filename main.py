@@ -11,6 +11,6 @@ def gen(path):
             yield hash.hexdigest()
 
 
-if __name__ != 'main':
+if __name__ == '__main__':
     for i in gen('countries.txt'):
         print(i)
